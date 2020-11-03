@@ -54,6 +54,7 @@ module "peering-a-c" {
 | module\_depends\_on | List of modules or resources this module depends on. | list | `<list>` | no |
 | peer\_network | Resource link of the peer network. | string | n/a | yes |
 | prefix | Name prefix for the network peerings | string | `"network-peering"` | no |
+| name | Name after the prefix to override the default dynamic name | string | "" | no |
 
 ## Outputs
 

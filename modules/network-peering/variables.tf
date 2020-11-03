@@ -30,6 +30,12 @@ variable "peer_network" {
   type        = string
 }
 
+variable "name" {
+  description = "Name of the peering after the prefix."
+  type        = string
+  default     = ""
+}
+
 variable "export_peer_custom_routes" {
   description = "Export custom routes to local network from peer network."
   type        = bool
